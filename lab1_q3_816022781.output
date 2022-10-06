@@ -1,0 +1,77 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2022.10.01 14:40:31 =~=~=~=~=~=~=~=~=~=~=~=
+[0;32mI (151269) main: Analog 0 Pin Value : 26532 
+[0m
+[0;32mI (152269) main: Analog 0 Pin Value : 26533 
+[0m
+[0;32mI (153269) main: Analog 0 Pin Value : 26533 
+[0m
+[0;32mI (154269) main: Analog 0 Pin Value : 26533 
+[0m
+[0;32mI (155269) main: Analog 0 Pin Value : 26533 
+[0m
+[0;32mI (156269) main: Analog 0 Pin Value : 26533 
+[0m
+[0;32mI (157269) main: Analog 0 Pin Value : 26533 
+[0m
+[0;32mI (158269) main: Analog 0 Pin Value : 26533 
+[0m
+[0;32mI (159269) main: Analog 0 Pin Value : 26533 
+[0m
+[0;32mI (160270) main: Analog 0 Pin Value : 26533 
+[0m
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,7)
+
+load 0x40100000, len 7040, room 16 
+tail 0
+chksum 0xee
+load 0x3ffe8408, len 24, room 8 
+tail 0
+chksum 0x67
+load 0x3ffe8420, len 3324, room 8 
+tail 4
+chksum 0x47
+csum 0x47
+[0;32mI (46) boot: ESP-IDF v3.4-49-g0f200b46 2nd stage bootloader[0m
+[0;32mI (46) boot: compile time 18:24:00[0m
+[0;32mI (46) qio_mode: Enabling default flash chip QIO[0m
+[0;32mI (54) boot: SPI Speed      : 40MHz[0m
+[0;32mI (60) boot: SPI Mode       : QIO[0m
+[0;32mI (66) boot: SPI Flash Size : 1MB[0m
+[0;32mI (73) boot: Partition Table:[0m
+[0;32mI (78) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (89) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (101) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (112) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (124) boot: End of partition table[0m
+[0;32mI (131) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1713c ( 94524) map[0m
+[0;32mI (176) esp_image: segment 1: paddr=0x00027154 vaddr=0x4022714c size=0x05d34 ( 23860) map[0m
+[0;32mI (184) esp_image: segment 2: paddr=0x0002ce90 vaddr=0x3ffe8000 size=0x003dc (   988) load[0m
+[0;32mI (187) esp_image: segment 3: paddr=0x0002d274 vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (201) esp_image: segment 4: paddr=0x0002d2fc vaddr=0x40100080 size=0x04558 ( 17752) load[0m
+[0;32mI (220) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (240) main: Starting up
+ [0m
+[0;32mI (1234) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 1| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (1237) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 1| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (1249) main: ADS1115 initialized!
+[0m
+[0;32mI (1256) main: Analog 0 Pin Value : 26524 
+[0m
+[0;32mI (2254) main: Analog 0 Pin Value : 26532 
+[0m
+[0;32mI (3254) main: Analog 0 Pin Value : 26533 
+[0m
+[0;32mI (4254) main: Analog 0 Pin Value : 26532 
+[0m
+[0;32mI (5254) main: Analog 0 Pin Value : 26532 
+[0m
+[0;32mI (6254) main: Analog 0 Pin Value : 26533 
+[0m
+[0;32mI (7254) main: Analog 0 Pin Value : 26533 
+[0m
+[0;32mI (8254) main: Analog 0 Pin Value : 26532 
+[0m
+[0;32mI (9254) main: Analog 0 Pin Value : 26532 
+[0m
+
